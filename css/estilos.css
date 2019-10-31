@@ -4,6 +4,15 @@
 	color: hsla(360, 100%, 100%, 1);
 	font-family: 'Poppins', sans-serif;
 }
+.texto {
+	color: hsla(360, 100%, 100%, 1);
+	font-family: 'Poppins', sans-serif;	
+}
+.boton {
+    background-color: hsla(360, 100%, 100%, 1);
+    border-radius: 19px;
+    padding: 1em;
+}
 
 @media only screen
 and (max-width : 375px) {
@@ -22,11 +31,29 @@ and (max-width : 375px) {
     	margin: 2em;
 	}
 	.titulo {
-		font-weight: 400;
+		font-weight: 700;
         text-align: center;
         font-size: 1.5em;
         margin-left: 1em;
         margin-right: 1em;
+	}
+	.texto {
+		text-align: center;
+		margin-left: 1em;
+		margin-right: 1em;
+		font-weight: 400;
+	}
+	.mibtn {
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+	.boton {
+		
+		box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+		height: 3.3em;
+		width: 16em;	
+
 	}	
 
 }
