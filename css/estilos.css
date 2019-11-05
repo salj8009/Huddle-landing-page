@@ -12,9 +12,13 @@
     background-color: hsla(360, 100%, 100%, 1);
     border-radius: 19px;
     padding: 1em;
+    color: gray;
+    font-family: 'Poppins', sans-serif;
 }
 
-
+a {
+	background-color: #f9f9f9;
+}
 @media only screen
 and (max-width : 375px) {
 /* Styles */
@@ -57,7 +61,8 @@ and (max-width : 375px) {
 
 		box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
 		height: 3.3em;
-		width: 16em;	
+		width: 16em;
+		font-weight: 400;	
 
 	}
 	.redes {
@@ -65,10 +70,10 @@ and (max-width : 375px) {
 		margin: 2em auto 2em auto;
 	}
 	.sociales {
-		margin-left: 1.5em;
-    	border-radius: 80px;
-    	border: 1px solid #f2edf3f7;
-    	padding: .5em;
+	    margin-left: 1em;
+	    border-radius: 29px;
+	    border: 1px solid #f2edf3f7;
+	    padding: 1em;
 	}	
 
 }
