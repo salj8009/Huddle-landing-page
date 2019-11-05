@@ -13,9 +13,7 @@
     border-radius: 19px;
     padding: 1em;
 }
-.sociales {
-	
-}
+
 
 @media only screen
 and (max-width : 375px) {
@@ -64,6 +62,13 @@ and (max-width : 375px) {
 	}
 	.redes {
 		text-align: center;
+		margin: 2em auto 2em auto;
+	}
+	.sociales {
+		margin-left: 1.5em;
+    	border-radius: 80px;
+    	border: 1px solid #f2edf3f7;
+    	padding: .5em;
 	}	
 
 }
