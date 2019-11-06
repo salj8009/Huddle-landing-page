@@ -19,9 +19,23 @@
 a {
 	background-color: #f9f9f9;
 }
+
+
 @media only screen
 and (max-width : 375px) {
 /* Styles */
+
+	.grid-container {
+	  display: grid;
+	  grid-template-columns: 1fr;
+	  grid-template-rows: 1fr 1fr;
+	  grid-template-areas: "areaUno" "areaDos";
+	}
+
+	.areaUno { grid-area: areaUno; }
+
+	.areaDos { grid-area: areaDos; }
+
 	body {	
 		
 		/*background-image: url(../images/bg-mobile.svg);
@@ -80,8 +94,33 @@ and (max-width : 375px) {
 /*estilos escrotorio*/
 @media only screen
 and (min-width: 376px) {
+
+	.grid-container {
+	  display: grid;
+	  grid-template-columns: 1fr 1fr;
+	  grid-template-rows: 1fr;
+	  grid-template-areas: "areaUno AreaDos";
+	}
+
+	.areaUno { grid-area: areaUno; }
+
+	.AreaDos { grid-area: AreaDos; }
+	
+
 	body {
 		background-color:hsl(257, 40%, 49%);
 		background-image: url(../images/bg-desktop.svg);
+	}
+	.logo {
+		display: block;
+		margin: 3em 2em 3em 1em;
+	}
+	.imagen {
+		margin-left: 2em;
+	}
+	.titulo {
+		float: right;
+    	width: 25vw;
+    	margin-right: 6em;
 	}	
 }
