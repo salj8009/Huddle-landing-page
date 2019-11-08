@@ -46,25 +46,26 @@ and (max-width : 375px) {
 	}
 	.logo {
 		width: 7em;
-    	margin: 2em;
+    	margin: 2em 1em;
 	}
 	.imagen {
-		width: 17em;
+		width: 20em;
     	text-align: center;
-    	margin: 2em;
+    	margin: .5em 1em;
 	}
 	.titulo {
 		font-weight: 700;
-        text-align: center;
-        font-size: 1.5em;
-        margin-left: 1em;
-        margin-right: 1em;
+    	text-align: center;
+    	font-size: 1.5em;
+    	margin-left: 1em;
+    	margin-right: 1em;
+}
 	}
 	.texto {
 		text-align: center;
-		margin-left: 1em;
-		margin-right: 1em;
-		font-weight: 400;
+    	margin-left: 1em;
+    	margin-right: 1em;
+    	font-weight: 400;
 	}
 	.mibtn {
 		margin-left: auto;
@@ -79,15 +80,18 @@ and (max-width : 375px) {
 		font-weight: 400;	
 
 	}
-	.redes {
-		text-align: center;
+	.redes {	
 		margin: 2em auto 2em auto;
+		text-align: center;
 	}
 	.sociales {
 	    margin-left: 1em;
 	    border-radius: 29px;
 	    border: 1px solid #f2edf3f7;
 	    padding: 1em;
+	}
+	.attribution{
+		text-align: center;
 	}	
 
 }
