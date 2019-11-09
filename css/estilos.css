@@ -20,6 +20,45 @@ a {
 	background-color: #f9f9f9;
 }
 
+/*estilos escrotorio*/
+@media only screen
+and (min-width: 376px) {
+
+	.grid-container {
+	  display: grid;
+	  grid-template-columns: 1fr 1fr;
+	  grid-template-rows: 1fr;
+	  grid-template-areas: "areaUno AreaDos";
+	}
+
+	.areaUno { 
+		grid-area: areaUno; 
+		height: 100vh;
+	}
+
+	.AreaDos { 
+		grid-area: AreaDos;
+		height: 100vh; 
+	}
+
+	body {
+		background-color:hsl(257, 40%, 49%);
+		background-image: url(../images/bg-desktop.svg);
+	}
+	.logo {
+		display: block;
+		margin: 3em 2em 3em 1em;
+	}
+	.imagen {
+		margin-left: 2em;
+	}
+	.titulo {
+		float: right;
+    	width: 25vw;
+    	margin-right: 6em;
+	}
+
+}
 
 @media only screen
 and (max-width : 375px) {
@@ -37,9 +76,6 @@ and (max-width : 375px) {
 	.areaDos { grid-area: areaDos; }
 
 	body {	
-		
-		/*background-image: url(../images/bg-mobile.svg);
-		background-color: hsl(257, 40%, 49%);*/
 		
 		background-image: linear-gradient( hsla(257, 93%, 47%, .8), hsl(257, 93%, 47%)), 
 		               url(../images/bg-mobile.svg);
@@ -94,37 +130,4 @@ and (max-width : 375px) {
 		text-align: center;
 	}	
 
-}
-/*estilos escrotorio*/
-@media only screen
-and (min-width: 376px) {
-
-	.grid-container {
-	  display: grid;
-	  grid-template-columns: 1fr 1fr;
-	  grid-template-rows: 1fr;
-	  grid-template-areas: "areaUno AreaDos";
-	}
-
-	.areaUno { grid-area: areaUno; }
-
-	.AreaDos { grid-area: AreaDos; }
-	
-
-	body {
-		background-color:hsl(257, 40%, 49%);
-		background-image: url(../images/bg-desktop.svg);
-	}
-	.logo {
-		display: block;
-		margin: 3em 2em 3em 1em;
-	}
-	.imagen {
-		margin-left: 2em;
-	}
-	.titulo {
-		float: right;
-    	width: 25vw;
-    	margin-right: 6em;
-	}	
 }
