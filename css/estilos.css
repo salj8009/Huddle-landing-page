@@ -45,6 +45,7 @@ and (min-width: 376px) {
 	body {
 		background-color:hsl(257, 40%, 49%);
 		background-image: url(../images/bg-desktop.svg);
+		background-size:  cover;
 	}
 	.logo {
 		display: block;
