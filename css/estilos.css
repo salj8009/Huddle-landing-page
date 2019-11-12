@@ -6,7 +6,8 @@
 }
 .texto {
 	color: hsla(360, 100%, 100%, 1);
-	font-family: 'Poppins', sans-serif;	
+	font-family: 'Poppins', sans-serif;
+	
 }
 .boton {
     background-color: hsla(360, 100%, 100%, 1);
@@ -54,8 +55,23 @@ and (min-width: 376px) {
 	}
 	.titulo {
 		float: right;
-    	width: 25vw;
-    	margin-right: 6em;
+    	margin: 4em 1em 2em;
+    	text-align: left;
+    	font-size: 3em;
+	}
+	.texto {
+    	font-size: 2em;
+    	text-align: left !important;
+
+	}
+		.mibtn {
+		margin-left: auto;
+		margin-right: auto;
+		text-align: left !important;
+	}
+		.redes {	
+		margin: 2em 2em 2em 2em !important;
+		text-align: right !important;
 	}
 
 }
@@ -97,11 +113,11 @@ and (max-width : 375px) {
     	margin-right: 1em;
 }
 	}
-	.texto {
-		text-align: center;
+	.texto {		
     	margin-left: 1em;
     	margin-right: 1em;
     	font-weight: 400;
+    	text-align: center;
 	}
 	.mibtn {
 		margin-left: auto;
